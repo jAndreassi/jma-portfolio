@@ -6,27 +6,32 @@ export default function Home() {
   return (
     <>
       <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          marginTop: "1em",
-        }}>
-        <h2>
-          Hello and Welcome! This is Jared's Portfolio! I'm very new at coding
-          but learning something new everyday!
-        </h2>
-      </div>
-      <div
         className="App"
         style={{
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
           height: "100vh",
-          paddingBottom: "5em",
         }}>
-        <img src={home} alt="Coding image" style={{ display: "block" }} />
+        <img
+          src={home}
+          alt="Coding image"
+          style={{ display: "block", width: "100%", height: "100%" }}
+        />
+        <div
+          className="Intro"
+          style={{
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+            color: "black",
+            textAlign: "center",
+            fontSize: "3em",
+          }}>
+          Hello and Welcome to Jared Andreassi's portfolio! I'm new at coding
+          but I'm learning and getting better everyday.
+        </div>
       </div>
     </>
   );

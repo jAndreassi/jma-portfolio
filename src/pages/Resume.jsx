@@ -4,7 +4,7 @@ import myPDF from "../assets/Jared-Andreassi-Resume.pdf";
 
 function Resume() {
   return (
-    <div>
+    <div style={{ paddingTop: "3.5em" }}>
       <object width="100%" height="2000" data={myPDF} type="application/pdf">
         {" "}
       </object>

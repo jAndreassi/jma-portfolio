@@ -18,8 +18,10 @@ export default function SimpleBottomNavigation() {
         display: "flex",
         justifyContent: "space-evenly",
         alignItems: "center",
+        backgroundColor: "black",
       }}>
       <BottomNavigation
+        sx={{ backgroundColor: "black" }}
         showLabels
         // value={value}
         onChange={(event, newValue) => {
@@ -28,19 +30,21 @@ export default function SimpleBottomNavigation() {
         <BottomNavigationAction
           label="GitHub"
           icon={<GitHubIcon />}
-          sx={{ color: "black" }}
+          sx={{ color: "white" }}
           href="https://github.com/jAndreassi"
+          target="_blank"
         />
         <BottomNavigationAction
           label="Twitter"
           icon={<TwitterIcon />}
-          sx={{ color: "black" }}
+          sx={{ color: "white" }}
           href="https://twitter.com/jaredandreassi"
+          target="_blank"
         />
         <BottomNavigationAction
           label="LinkedIn"
           icon={<LinkedInIcon />}
-          sx={{ color: "black" }}
+          sx={{ color: "white" }}
           href="https://www.linkedin.com/in/jared-andreassi"
           target="_blank"
         />
