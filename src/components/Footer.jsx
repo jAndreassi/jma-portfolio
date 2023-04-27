@@ -18,7 +18,6 @@ export default function SimpleBottomNavigation() {
         display: "flex",
         justifyContent: "space-evenly",
         alignItems: "center",
-        paddingTop: "5em",
       }}>
       <BottomNavigation
         showLabels
