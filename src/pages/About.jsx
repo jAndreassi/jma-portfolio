@@ -21,6 +21,7 @@ const containerStyle = {
   justifyContent: "center",
   flexWrap: "wrap",
   paddingTop: "5em",
+  backgroundColor: "#5B5B6C",
 };
 
 export default function About() {
