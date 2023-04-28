@@ -21,7 +21,6 @@ const containerStyle = {
   flexWrap: "wrap",
   paddingTop: "5em",
   paddingBottom: "3em",
-  backgroundColor: "#5B5B6C",
 };
 
 export default function MediaCard() {

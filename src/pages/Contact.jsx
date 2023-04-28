@@ -4,12 +4,11 @@ import Form from "react-bootstrap/Form";
 
 function TextControlsExample() {
   return (
-    <div style={{ backgroundColor: "#5B5B6C" }}>
+    <div>
       <div
         style={{
           margin: "8em",
           color: "#133955",
-          backgroundColor: "#5B5B6C",
         }}>
         <div
           style={{
