@@ -13,21 +13,17 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/jma-portfolio">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-        </Routes>
-        <Routes>
+
           <Route path="/Resume" element={<Resume />} />
-        </Routes>
-        <Routes>
+
           <Route path="/Contact" element={<Contact />} />
-        </Routes>
-        <Routes>
+
           <Route path="/About" element={<About />} />
-        </Routes>
-        <Routes>
+
           <Route path="/Projects" element={<Projects />} />
         </Routes>
         <Footer />
